@@ -1,0 +1,9 @@
+http://10.2.155.254/ NampulaTMT
+http://10.2.157.254/ NacalaTMT
+10.2.164.254   PembaTMT
+
+netsh interface ipv4 show interfaces
+netsh interface ipv4 set address name="Ethernet" static 192.168.1.10 255.255.255.0 192.168.1.1
+netsh interface ipv4 set address name="Ethernet" source=dhcp
+ netsh interface set interface "以太网" admin=disable
+ netsh interface set interface "以太网" admin=enable
