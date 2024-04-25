@@ -1,6 +1,7 @@
-http://10.2.155.254/ NampulaTMT
-http://10.2.157.254/ NacalaTMT
-10.2.164.254   PembaTMT
+http://10.2.155.254/ NampulaTMT     10.154.212.196  GW:10.154.212.197  M2M 105.27.176.194
+http://10.2.157.254/ NacalaTMT   IP: 10.207.80.189  GW:10.207.80.190   M2M 105.27.176.194  8000
+10.2.164.254   PembaTMT           10.226.97.138  10.226.97.137
+VPN: 41.223.153.206
 
 netsh interface ipv4 show interfaces
 netsh interface ipv4 set address name="Ethernet" static 192.168.1.10 255.255.255.0 192.168.1.1
